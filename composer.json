@@ -1,0 +1,80 @@
+{
+    "name": "dashzeveg/flarum-open-links-in-new-tab",
+    "description": "A Flarum 2.0 extension that automatically opens links in a new tab.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^2.0"
+    },
+    "authors": [
+        {
+            "name": "Dashzeveg Galbadrakh",
+            "email": "dashka.gb@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dashzeveg\\Openlinksinnewtab\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Open Links in new tab",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-external-link-alt",
+                "color": "#fff",
+                "backgroundColor": "#4A90D9"
+            }
+        },
+        "flarum-cli": {
+            "modules": {
+                "admin": false,
+                "forum": false,
+                "js": false,
+                "jsCommon": false,
+                "css": false,
+                "locale": false,
+                "gitConf": true,
+                "githubActions": true,
+                "prettier": false,
+                "typescript": false,
+                "bundlewatch": false,
+                "frontendTesting": false,
+                "backendTesting": false,
+                "phpstan": false,
+                "editorConfig": true,
+                "styleci": false
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload-dev": {
+        "psr-4": {
+            "Dashzeveg\\Openlinksinnewtab\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": [
+            "@test:unit",
+            "@test:integration"
+        ],
+        "test:unit": "phpunit -c tests/phpunit.unit.xml",
+        "test:integration": "phpunit -c tests/phpunit.integration.xml",
+        "test:setup": "@php tests/integration/setup.php"
+    },
+    "scripts-descriptions": {
+        "test": "Runs all tests.",
+        "test:unit": "Runs all unit tests.",
+        "test:integration": "Runs all integration tests.",
+        "test:setup": "Sets up a database for use with integration tests. Execute this only once."
+    },
+    "require-dev": {
+        "flarum/testing": "^2.0"
+    }
+}
