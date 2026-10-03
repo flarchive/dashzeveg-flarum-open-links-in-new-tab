@@ -2,13 +2,13 @@
 
 > **Read-only archive of released versions of dashzeveg/flarum-open-links-in-new-tab.** Not for installation: use [Packagist](https://packagist.org/packages/dashzeveg/flarum-open-links-in-new-tab) or the [upstream repository](https://github.com/dashzeveg/flarum-open-links-in-new-tab).
 
-**0** versions archived · Latest: [`v1.0`](https://github.com/flarchive/dashzeveg-flarum-open-links-in-new-tab/tree/archive/v1.0) · License: `MIT` · Flarum: `^2.0`
+**1** versions archived · Latest: [`v1.0`](https://github.com/flarchive/dashzeveg-flarum-open-links-in-new-tab/tree/archive/v1.0) · License: `MIT` · Flarum: `^2.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `v1.0` | 2026-04-09 | `^2.0` | [Browse](https://github.com/flarchive/dashzeveg-flarum-open-links-in-new-tab/tree/archive/v1.0) |
 
 Catalog entry: [packages/dashzeveg-flarum-open-links-in-new-tab.json](https://github.com/flarchive/archive-index/blob/main/packages/dashzeveg-flarum-open-links-in-new-tab.json)
 
